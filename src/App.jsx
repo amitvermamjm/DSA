@@ -3,7 +3,8 @@ import './App.css'
 function App() {
   return (
     <>
-      <div> <h1>List of all Data Structure and Algorithms</h1>
+      <div className="App"> 
+        <h1>List of all Data Structure and Algorithms</h1>
         <h2>Data Structures</h2>
         <ul>
           <li>Array</li>
