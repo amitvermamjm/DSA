@@ -194,6 +194,174 @@ function App() {
             </table>
           </div>
         </div>
+        <div className="hash-based-data-structures">
+          <h2>Hash-Based Data Structures</h2>
+          <p>Data structures that use hash functions for indexing.</p>
+          <div className="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Description</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Hash Table</td>
+                  <td>Key-value storage with fast lookup</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Hash Map</td>
+                  <td>Maps keys to values</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Hash Set</td>
+                  <td>Stores unique values only</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div className="tree-data-structures">
+          <h2>Tree Data Structures</h2>
+          <p>Hierarchical structures with parent-child relationships.</p>
+          <h3>General Trees</h3>
+          <div className="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Description</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Tree</td>
+                  <td>General hierarchical structure</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Binary Tree</td>
+                  <td>Each node has at most two children</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h3>Binary Search Trees</h3>
+          <div className="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Description</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Binary Search Tree (BST)</td>
+                  <td> Left - Root - Right</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>AVL Tree</td>
+                  <td>Self-balancing BST</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Red-Black Tree</td>
+                  <td>Balanced BST with color rules</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Splay Tree</td>
+                  <td>Self-adjusting BST</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h3>Specialized Trees</h3>
+          <div className="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Description</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Heap</td>
+                  <td>Complete binary tree (Min-Heap / Max-Heap)</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Trie (Prefix Tree)</td>
+                  <td>Efficient string storage/search</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>B-Tree</td>
+                  <td>Balanced tree for databases</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>B+ Tree</td>
+                  <td>Optimized B-tree for disk access</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Segment Tree</td>
+                  <td>Range query structure</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Fenwick Tree (Binary Indexed Tree)</td>
+                  <td>Efficient prefix sums</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </>
   )
