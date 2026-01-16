@@ -362,6 +362,65 @@ function App() {
             </table>
           </div>
         </div>
+        <div className="graph-data-structures">
+          <h2>Graph Data Structures</h2>
+          <p>Structures to represent networks of nodes and edges.</p>
+          <div className="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Description</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Graph</td>
+                  <td>Collection of nodes (vertices) and edges</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Directed Graph (Digraph)</td>
+                  <td>Edges have a direction</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Undirected Graph</td>
+                  <td>Edges have no direction</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Weighted Graph</td>
+                  <td>Edges have weights/costs</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Adjacency Matrix</td>
+                  <td>2D array representation of a graph</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Adjacency List</td>
+                  <td>List of lists representation of a graph</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </>
   )
