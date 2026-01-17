@@ -1,4 +1,4 @@
-.App {
+.App, .data-structures-section, .algorithms-section {
     background-color: #e1dff5;
     color: black;
     display: flex;
