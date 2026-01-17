@@ -421,6 +421,51 @@ function App() {
             </table>
           </div>
         </div>
+                <div className="graph-data-structures">
+          <h2>Set and Map Structures</h2>
+          <p>Collections with unique or key-based access.</p>
+          <div className="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Description</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Set</td>
+                  <td>Collection of unique elements</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Multiset</td>
+                  <td>Allows duplicate elements</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Map / Dictionary</td>
+                  <td>Key-value pairs</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Ordered Map</td>
+                  <td>Keys stored in sorted order</td>
+                  <td data-label="Select">
+                    <input type="checkbox" class="row-checkbox" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </>
   )
