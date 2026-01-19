@@ -530,6 +530,73 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="sorting-algorithms">
+            <h2>Sorting Algorithms</h2>
+            <p>Arrange data in a specific order.</p>
+            <h3>Comparison-Based Sorting</h3>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Bubble Sort</td>
+                    <td>Repeatedly swaps adjacent elements</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Selection Sort</td>
+                    <td>Selects smallest element repeatedly</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Insertion Sort</td>
+                    <td>Inserts elements into sorted position</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Merge Sort</td>
+                    <td>Divide-and-conquer, stable sort</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Quick Sort</td>
+                    <td>Partition-based divide-and-conquer</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Heap Sort</td>
+                    <td>Uses heap data structure</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Tim Sort</td>
+                    <td>Hybrid of merge and insertion sort</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
