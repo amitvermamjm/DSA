@@ -632,6 +632,58 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="sorting-algorithms">
+            <h2>Divide and Conquer Algorithms</h2>
+            <p>Break problems into smaller subproblems.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Merge Sort</td>
+                    <td>Divide array and merge sorted halves</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Quick Sort</td>
+                    <td>Partition and sort recursively</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Binary Search</td>
+                    <td>Repeated halving</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Strassen’s Matrix Multiplication</td>
+                    <td>Faster matrix multiplication</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Karatsuba Algorithm</td>
+                    <td>Fast multiplication of large numbers</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
