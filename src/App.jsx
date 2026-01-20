@@ -596,6 +596,41 @@ function App() {
                 </tbody>
               </table>
             </div>
+            <h3>Non-Comparison Sorting</h3>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Counting Sort</td>
+                    <td>Counts occurrences of elements</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Radix Sort</td>
+                    <td>Sorts digit by digit</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Bucket Sort</td>
+                    <td>Distributes elements into buckets</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
