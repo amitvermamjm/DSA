@@ -632,7 +632,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="sorting-algorithms">
+          <div className="divide-and-conquer-algorithms">
             <h2>Divide and Conquer Algorithms</h2>
             <p>Break problems into smaller subproblems.</p>
             <div className="table-container">
@@ -676,6 +676,65 @@ function App() {
                   <tr>
                     <td>Karatsuba Algorithm</td>
                     <td>Fast multiplication of large numbers</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div className="greedy-algorithms">
+            <h2>Greedy Algorithms</h2>
+            <p>Choose best option at each step.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Kruskal's Algorithm</td>
+                    <td>Minimum Spanning Tree</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Prim's Algorithm</td>
+                    <td>Minimum Spanning Tree</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Dijkstra's Algorithm</td>
+                    <td>Shortest path (non-negative weights)</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Huffman Coding</td>
+                    <td>Optimal prefix codes</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Activity Selection</td>
+                    <td>Maximum number of non-overlapping activities</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Fractional Knapsack</td>
+                    <td>Maximize value with fractions</td>
                     <td data-label="Select">
                       <input type="checkbox" class="row-checkbox" />
                     </td>
