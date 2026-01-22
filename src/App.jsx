@@ -743,6 +743,72 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="dynamic-programming-algorithms">
+            <h2>Dynamic Programming Algorithms</h2>
+            <p>Solve overlapping subproblems efficiently.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Fibonacci (DP)</td>
+                    <td>Optimized recursion</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Knapsack (0/1)</td>
+                    <td>Optimal subset selection</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Longest Common Subsequence (LCS)</td>
+                    <td>Common subsequence</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Longest Increasing Subsequence (LIS)</td>
+                    <td>Increasing order subsequence</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Matrix Chain Multiplication</td>
+                    <td>Optimal multiplication order</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Edit Distance</td>
+                    <td>String transformation cost</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Coin Change</td>
+                    <td>Minimum coins for amount</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
