@@ -861,6 +861,150 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="graph-algorithms">
+            <h2>Graph Algorithms</h2>
+            <p>Used for network-based problems.</p>
+            <h3>Traversal</h3>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Breadth-First Search (BFS)</td>
+                    <td>Level-order traversal</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Depth-First Search (DFS)</td>
+                    <td>Depth traversal</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Shortest Path</h3>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Dijkstra's Algorithm</td>
+                    <td>Non-negative weights</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Bellman-Ford Algorithm</td>
+                    <td>Handles negative weights</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Floyd-Warshall Algorithm</td>
+                    <td>All-pairs shortest path</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>A*</td>
+                    <td>Heuristic-based pathfinding</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Spanning Tree</h3>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Kruskal's Algorithm</td>
+                    <td>Edge-based MST</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Prim's Algorithm</td>
+                    <td>Vertex-based MST</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Connectivity & Cycles</h3>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Topological Sort</td>
+                    <td>Ordering in DAG</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Tarjan's Algorithm</td>
+                    <td>Strongly connected components</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Kosaraju's Algorithm</td>
+                    <td>SCC detection</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Union-Find Algorithm</td>
+                    <td>Cycle detection</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
