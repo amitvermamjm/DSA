@@ -1005,6 +1005,65 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="string-algorithms">
+            <h2>String  Algorithms</h2>
+            <p>Text processing and pattern matching.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Naive Pattern Matching</td>
+                    <td>Simple character comparison</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>KMP Algorithm</td>
+                    <td>Prefix-based pattern matching</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Rabin-Karp Algorithm</td>
+                    <td>Hash-based matching</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Boyer-Moore Algorithm</td>
+                    <td>Right-to-left matching</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Z Algorithm</td>
+                    <td>Pattern matching using Z-array</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Aho-Corasick Algorithm</td>
+                    <td>Multi-pattern matching</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
