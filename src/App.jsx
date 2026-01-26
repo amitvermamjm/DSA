@@ -1006,7 +1006,7 @@ function App() {
             </div>
           </div>
           <div className="string-algorithms">
-            <h2>String  Algorithms</h2>
+            <h2>String Algorithms</h2>
             <p>Text processing and pattern matching.</p>
             <div className="table-container">
               <table>
@@ -1056,6 +1056,58 @@ function App() {
                   <tr>
                     <td>Aho-Corasick Algorithm</td>
                     <td>Multi-pattern matching</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div className="mathematical-algorithms">
+            <h2>Mathematical Algorithms</h2>
+            <p>Solve numerical problems.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Euclidean Algorithm</td>
+                    <td>GCD computation</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Extended Euclidean Algorithm</td>
+                    <td>GCD + coefficients</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sieve of Eratosthenes</td>
+                    <td>Prime number generation</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Fast Exponentiation</td>
+                    <td>Power in logarithmic time</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Modular Arithmetic Algorithms</td>
+                    <td>Modular operations</td>
                     <td data-label="Select">
                       <input type="checkbox" class="row-checkbox" />
                     </td>
