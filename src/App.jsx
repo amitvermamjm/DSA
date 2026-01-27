@@ -1116,6 +1116,51 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="randomized-algorithms">
+            <h2>Randomized Algorithms</h2>
+            <p>Use randomness for efficiency.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Randomized Quick Sort</td>
+                    <td>Random pivot selection</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Monte Carlo Algorithm</td>
+                    <td>Probabilistic correctness</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Las Vegas Algorithm</td>
+                    <td>Always correct, variable runtime</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Reservoir Sampling</td>
+                    <td>Random sampling from stream</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
