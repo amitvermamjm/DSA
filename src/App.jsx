@@ -1161,6 +1161,44 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="approximation-algorithms">
+            <h2>Approximation Algorithms</h2>
+            <p>Near-optimal solutions for NP-hard problems.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Vertex Cover Approximation</td>
+                    <td>Near-minimum vertex cover</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Traveling Salesman Approximation</td>
+                    <td>Near-optimal tour</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Set Cover Approximation</td>
+                    <td>Greedy cover selection</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
