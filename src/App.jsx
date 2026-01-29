@@ -1199,6 +1199,58 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="cryptographic-algorithms">
+            <h2>Cryptographic Algorithms</h2>
+            <p>Security and encryption.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>AES</td>
+                    <td>Symmetric encryption</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>RSA</td>
+                    <td>Asymmetric encryption</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>SHA</td>
+                    <td>Hashing algorithm</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Diffie-Hellman</td>
+                    <td>Secure key exchange</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>ECC</td>
+                    <td>Elliptic Curve Cryptography</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
