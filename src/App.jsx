@@ -1251,6 +1251,44 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="compression-algorithms">
+            <h2>Compression Algorithms</h2>
+            <p>Reduce data size.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Huffman Coding</td>
+                    <td>Lossless compression</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>LZW Compression</td>
+                    <td>Dictionary-based compression</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Run-Length Encoding (RLE)</td>
+                    <td>Repeated data compression</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
