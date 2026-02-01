@@ -1289,6 +1289,79 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="machine-learning-algorithms">
+            <h2>Machine Learning Algorithms (High-Level)</h2>
+            <p>Learning from data.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Linear Regression</td>
+                    <td>Predict continuous values</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Logistic Regression</td>
+                    <td>Binary classification</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Decision Tree</td>
+                    <td>Rule-based learning</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Random Forest</td>
+                    <td>Ensemble trees</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>K-Means</td>
+                    <td>Clustering</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>KNN</td>
+                    <td>Nearest neighbor classification</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Naive Bayes</td>
+                    <td>Probabilistic classifier</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Neural Networks</td>
+                    <td>Deep learning models</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
