@@ -1362,6 +1362,58 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="operating-system-algorithms">
+            <h2>Operating System Algorithms</h2>
+            <p>System-level resource management.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>FCFS Scheduling</td>
+                    <td>First-Come First-Serve</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Shortest Job First (SJF)</td>
+                    <td>Shortest task first</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Round Robin Scheduling</td>
+                    <td>Time-sharing scheduling</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Banker's Algorithm</td>
+                    <td>Deadlock avoidance</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Page Replacement Algorithms</td>
+                    <td>LRU, FIFO, Optimal</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
