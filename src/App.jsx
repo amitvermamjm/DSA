@@ -1414,6 +1414,44 @@ function App() {
               </table>
             </div>
           </div>
+          <div className="distributed-networking-algorithms">
+            <h2>Distributed & Networking Algorithms</h2>
+            <p>Used in large-scale systems.</p>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Algorithm</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Consensus Algorithms</td>
+                    <td>Paxos, Raft</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Load Balancing Algorithms</td>
+                    <td>Round Robin, Least Connections</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Routing Algorithms</td>
+                    <td>Distance Vector, Link State</td>
+                    <td data-label="Select">
+                      <input type="checkbox" class="row-checkbox" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
