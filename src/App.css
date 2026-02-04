@@ -11,6 +11,7 @@
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: blue
 }
 
 h2 {
@@ -18,6 +19,7 @@ h2 {
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
+    color: blueviolet;
 }
 
 h3 {
@@ -25,6 +27,7 @@ h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
+    color: purple;
 }
 
 p {
@@ -32,6 +35,7 @@ p {
     margin-bottom: 20px;
     max-width: 800px;
     text-align: center;
+    color: green;
 }
 
 .table-container {
