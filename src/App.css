@@ -108,6 +108,13 @@ tbody tr:nth-child(even) {
   border: 1px solid black;
 }
 
+input[type="checkbox"] {
+  width: 20px;   /* Set desired width */
+  height: 20px;  /* Set desired height */
+  cursor: pointer;
+  accent-color: #2196F3;
+}
+
 /* Responsive (mobile-friendly) */
 @media (max-width: 640px) {
   table {
