@@ -55,6 +55,8 @@ table {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  outline: 1px solid #000;
+  box-shadow: 0 0 0 1px #000;
 }
 
 thead {
@@ -69,15 +71,18 @@ thead th {
   color: #374151;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  border: 1px solid black;
 }
 
 tbody tr {
   border-bottom: 1px solid #e5e7eb;
   transition: background-color 0.2s ease;
+  border: 1px solid black;
 }
 
 tbody tr:last-child {
   border-bottom: none;
+  border: 1px solid black;
 }
 
 tbody tr:hover {
@@ -85,6 +90,7 @@ tbody tr:hover {
 }
 
 tbody td {
+  border: 1px solid black;
   padding: 14px 16px;
   font-size: 0.95rem;
   color: #4b5563;
@@ -93,11 +99,13 @@ tbody td {
 tbody td:first-child {
   font-weight: 500;
   color: #111827;
+  border: 1px solid black;
 }
 
 /* Optional zebra striping */
 tbody tr:nth-child(even) {
   background-color: #fafafa;
+  border: 1px solid black;
 }
 
 /* Responsive (mobile-friendly) */
