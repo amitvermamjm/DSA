@@ -1,11 +1,11 @@
 .App, .data-structures-section, .algorithms-section {
     background-color: #e1dff5;
-    color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    padding: 20px;
+    padding: 0px;
     }
 
 h1 {
@@ -143,4 +143,85 @@ input[type="checkbox"] {
     font-weight: 600;
     color: #6b7280;
   }
+}
+
+body {
+  padding-top: 70px; 
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Forces full width */
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff9900;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* 2. Hide the dropdown menu by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; /* Places it right below the nav link */
+  right: 0;
+  left: auto;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+/* 3. Style the links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* 4. Show the menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Optional: Change link color when hovering over dropdown items */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+html {
+  /* Set this to the height of your navbar plus a little extra */
+  scroll-padding-top: 80px; 
+  scroll-behavior: smooth; /* This makes the transition look nice */
 }
