@@ -4,9 +4,28 @@ function App() {
   return (
     <>
       <div className="App">
-        <div className="data-structures-section">
+        <nav class="navbar">
+          <div class="logo">DSA</div>
+          <ul class="nav-links">
+            <li class="dropdown">
+              <a href="#data-structures-section" class="dropbtn">Data Structures</a>
+              <div class="dropdown-content">
+                <a href="#primitive-data-structures">Primitive Data Structures</a>
+                <a href="#linear-data-structures">Linear Data Structures</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#algorithms-section" class="dropbtn">Algorithms</a>
+              <div class="dropdown-content">
+                <a href="#searching-algorithms">Searching Algorithms</a>
+                <a href="#sorting-algorithms">Sorting Algorithms</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div id="data-structures-section">
           <h1>List of all Data Structure for Revision</h1>
-          <div className="primitive-data-structures">
+          <div id="primitive-data-structures">
             <h2>Primitive Data Structures</h2>
             <p>Basic built-in data types.</p>
             <div className="table-container">
@@ -58,7 +77,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="linear-data-structures">
+          <div id="linear-data-structures">
             <h2>Linear Data Structures</h2>
             <p>Elements are arranged sequentially.</p>
             <h3>Arrays</h3>
@@ -195,7 +214,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="hash-based-data-structures">
+          <div id="hash-based-data-structures">
             <h2>Hash-Based Data Structures</h2>
             <p>Data structures that use hash functions for indexing.</p>
             <div className="table-container">
@@ -233,7 +252,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="tree-data-structures">
+          <div id="tree-data-structures">
             <h2>Tree Data Structures</h2>
             <p>Hierarchical structures with parent-child relationships.</p>
             <h3>General Trees</h3>
@@ -363,7 +382,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="graph-data-structures">
+          <div id="graph-data-structures">
             <h2>Graph Data Structures</h2>
             <p>Structures to represent networks of nodes and edges.</p>
             <div className="table-container">
@@ -422,7 +441,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="set-map-structures">
+          <div id="set-map-structures">
             <h2>Set and Map Structures</h2>
             <p>Collections with unique or key-based access.</p>
             <div className="table-container">
@@ -469,9 +488,9 @@ function App() {
           </div>
         </div>
 
-        <div className="algorithms-section">
+        <div id="algorithms-section">
           <h1>List of Algorithms for Revision</h1>
-          <div className="searching-algorithms">
+          <div id="searching-algorithms">
             <h2>Searching Algorithms</h2>
             <p>Used to find elements in data</p>
             <div className="table-container">
@@ -530,7 +549,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="sorting-algorithms">
+          <div id="sorting-algorithms">
             <h2>Sorting Algorithms</h2>
             <p>Arrange data in a specific order.</p>
             <h3>Comparison-Based Sorting</h3>
@@ -632,7 +651,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="divide-and-conquer-algorithms">
+          <div id="divide-and-conquer-algorithms">
             <h2>Divide and Conquer Algorithms</h2>
             <p>Break problems into smaller subproblems.</p>
             <div className="table-container">
@@ -684,7 +703,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="greedy-algorithms">
+          <div id="greedy-algorithms">
             <h2>Greedy Algorithms</h2>
             <p>Choose best option at each step.</p>
             <div className="table-container">
@@ -743,7 +762,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="dynamic-programming-algorithms">
+          <div id="dynamic-programming-algorithms">
             <h2>Dynamic Programming Algorithms</h2>
             <p>Solve overlapping subproblems efficiently.</p>
             <div className="table-container">
@@ -809,7 +828,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="backtracking-algorithms">
+          <div id="backtracking-algorithms">
             <h2>Backtracking Algorithms</h2>
             <p>Try all possibilities with pruning.</p>
             <div className="table-container">
@@ -861,7 +880,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="graph-algorithms">
+          <div id="graph-algorithms">
             <h2>Graph Algorithms</h2>
             <p>Used for network-based problems.</p>
             <h3>Traversal</h3>
@@ -1005,7 +1024,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="string-algorithms">
+          <div id="string-algorithms">
             <h2>String Algorithms</h2>
             <p>Text processing and pattern matching.</p>
             <div className="table-container">
@@ -1064,7 +1083,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="mathematical-algorithms">
+          <div id="mathematical-algorithms">
             <h2>Mathematical Algorithms</h2>
             <p>Solve numerical problems.</p>
             <div className="table-container">
@@ -1116,7 +1135,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="randomized-algorithms">
+          <div id="randomized-algorithms">
             <h2>Randomized Algorithms</h2>
             <p>Use randomness for efficiency.</p>
             <div className="table-container">
@@ -1161,7 +1180,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="approximation-algorithms">
+          <div id="approximation-algorithms">
             <h2>Approximation Algorithms</h2>
             <p>Near-optimal solutions for NP-hard problems.</p>
             <div className="table-container">
@@ -1199,7 +1218,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="cryptographic-algorithms">
+          <div id="cryptographic-algorithms">
             <h2>Cryptographic Algorithms</h2>
             <p>Security and encryption.</p>
             <div className="table-container">
@@ -1251,7 +1270,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="compression-algorithms">
+          <div id="compression-algorithms">
             <h2>Compression Algorithms</h2>
             <p>Reduce data size.</p>
             <div className="table-container">
@@ -1289,7 +1308,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="machine-learning-algorithms">
+          <div id="machine-learning-algorithms">
             <h2>Machine Learning Algorithms (High-Level)</h2>
             <p>Learning from data.</p>
             <div className="table-container">
@@ -1362,7 +1381,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="operating-system-algorithms">
+          <div id="operating-system-algorithms">
             <h2>Operating System Algorithms</h2>
             <p>System-level resource management.</p>
             <div className="table-container">
@@ -1414,7 +1433,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div className="distributed-networking-algorithms">
+          <div id="distributed-networking-algorithms">
             <h2>Distributed & Networking Algorithms</h2>
             <p>Used in large-scale systems.</p>
             <div className="table-container">
