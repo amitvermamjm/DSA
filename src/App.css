@@ -60,7 +60,7 @@ table {
 }
 
 thead {
-  background-color: #f8fafc;
+  background-color: #4A4A4A;
 }
 
 thead th {
@@ -68,7 +68,7 @@ thead th {
   padding: 14px 16px;
   font-size: 0.9rem;
   font-weight: 700;
-  color: #374151;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   border: 1px solid black;
