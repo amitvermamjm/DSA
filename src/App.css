@@ -1,4 +1,4 @@
-.App, .data-structures-section, .algorithms-section {
+.App{
     background-color: #e1dff5;
     color: white;
     display: flex;
@@ -6,6 +6,7 @@
     align-items: center;
     min-height: 100vh;
     padding: 0px;
+    text-align: center;
     }
 
 h1 {
