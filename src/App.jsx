@@ -12,6 +12,10 @@ function App() {
               <div class="dropdown-content">
                 <a href="#primitive-data-structures">Primitive Data Structures</a>
                 <a href="#linear-data-structures">Linear Data Structures</a>
+                <a href="#hash-based-data-structures">Hash Based Data Structures</a>
+                <a href="#tree-data-structures">Tree Data Structures</a>
+                <a href="#graph-data-structures">Graph Data Structures</a>
+                <a href="#set-map-structures">Set Map Structures</a>
               </div>
             </li>
             <li class="dropdown">
