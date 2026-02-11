@@ -23,6 +23,20 @@ function App() {
               <div class="dropdown-content">
                 <a href="#searching-algorithms">Searching Algorithms</a>
                 <a href="#sorting-algorithms">Sorting Algorithms</a>
+                <a href="#divide-and-conquer-algorithms">Divide and Conquer Algorithms</a>
+                <a href="#greedy-algorithms">Greedy Algorithms</a>
+                <a href="#dynamic-programming-algorithms">Dynamic Programming Algorithms</a>
+                <a href="#backtracking-algorithms">Backtracking Algorithms</a>
+                <a href="#graph-algorithms">Graph Algorithms</a>
+                <a href="#string-algorithms">String Algorithms</a>
+                <a href="#mathematical-algorithms">Mathematical Algorithms</a>
+                <a href="#randomized-algorithms">Randomized Algorithms</a>
+                <a href="#approximation-algorithms">Approximation Algorithms</a>
+                <a href="#cryptographic-algorithms">Cryptographic Algorithms</a>
+                <a href="#compression-algorithms">Compression Algorithms</a>
+                <a href="#machine-learning-algorithms">Machine Learning Algorithms (High-Level)</a>
+                <a href="#operating-system-algorithms">Operating System Algorithms</a>
+                <a href="#distributed-networking-algorithms">Distributed & Networking Algorithms</a>
               </div>
             </li>
           </ul>
