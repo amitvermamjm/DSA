@@ -1490,6 +1490,25 @@ function App() {
             </div>
           </div>
         </div>
+        <footer class="site-footer">
+          <div class="footer-content">
+            <div class="footer-section">
+              <h3>About Us</h3>
+              <p>Building simple website for DSA revision.</p>
+            </div>
+            <div class="footer-section">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#data-structures-section">Data Structures</a></li>
+                <li><a href="#algorithms-section">Algorithms</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            &copy; {new Date().getFullYear()} All rights reserved.
+          </div>
+        </footer>
       </div>
     </>
   )
