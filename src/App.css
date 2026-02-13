@@ -103,20 +103,18 @@ tbody td:first-child {
   border: 1px solid black;
 }
 
-/* Optional zebra striping */
 tbody tr:nth-child(even) {
   background-color: #fafafa;
   border: 1px solid black;
 }
 
 input[type="checkbox"] {
-  width: 20px;   /* Set desired width */
-  height: 20px;  /* Set desired height */
+  width: 20px;
+  height: 20px;
   cursor: pointer;
   accent-color: #2196F3;
 }
 
-/* Responsive (mobile-friendly) */
 @media (max-width: 640px) {
   table {
     font-size: 0.9rem;
@@ -155,7 +153,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Forces full width */
+  width: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -186,7 +184,6 @@ body {
   display: inline-block;
 }
 
-/* 2. Hide the dropdown menu by default */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -205,7 +202,6 @@ body {
   font-size: 2.5rem;
 }
 
-/* 3. Style the links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -213,20 +209,17 @@ body {
   display: block;
 }
 
-/* 4. Show the menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Optional: Change link color when hovering over dropdown items */
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 
 html {
-  /* Set this to the height of your navbar plus a little extra */
   scroll-padding-top: 80px; 
-  scroll-behavior: smooth; /* This makes the transition look nice */
+  scroll-behavior: smooth;
 }
 
 .site-footer {
